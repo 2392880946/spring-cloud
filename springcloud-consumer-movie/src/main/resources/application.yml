@@ -1,0 +1,20 @@
+server:
+  port: 7902
+
+
+spring:
+  application:
+    name: springcloud-consumer-movie
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://abc:abc@localhost:8761/eureka
+
+
+    
+
+
+
+        

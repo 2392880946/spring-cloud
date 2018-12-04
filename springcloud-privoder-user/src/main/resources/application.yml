@@ -1,0 +1,26 @@
+      
+server:
+  port: 7900
+
+
+spring:
+  application:
+    name: springcloud-privoder-user
+
+
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://abc:abc@localhost:8761/eureka
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true 
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+  
+
+
+        

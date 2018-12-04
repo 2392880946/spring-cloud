@@ -1,0 +1,85 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HystrixApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "net.good.springcloud.HystrixApplication",
+            "args": "",
+            "projectName": "springcloud-consumer-hystrix"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication<springcloud-eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "net.good.springcloud.EurekaApplication",
+            "projectName": "springcloud-eureka",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConsumerApplication<springcloud-consumer-movie>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "net.good.springcloud.ConsumerApplication",
+            "projectName": "springcloud-consumer-movie",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PrivoderApplication<springcloud-privoder-user>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "net.good.springcloud.PrivoderApplication",
+            "projectName": "springcloud-privoder-user",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HibbonApplication<springcloud-consumer-hibbon>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "net.good.springcloud.HibbonApplication",
+            "projectName": "springcloud-consumer-hibbon",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FeignApplication<springcloud-consumer-feign>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "net.good.springcloud.FeignApplication",
+            "projectName": "springcloud-consumer-feign",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DashboardApplication<springcloud-consumer-hystrix-dashboard>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "net.good.springcloud.DashboardApplication",
+            "projectName": "springcloud-consumer-hystrix-dashboard",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZuulApplication<springcloud-consumer-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "net.good.springcloud.ZuulApplication",
+            "projectName": "springcloud-consumer-zuul",
+            "args": ""
+        }
+    ]
+}

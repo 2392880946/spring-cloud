@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: springcloud-consumer-hibbon
+
+server:
+  port: 9705
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://abc:abc@localhost:8761/eureka
+
+SPRINGCLOUD-PRIVODER-USER:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+        

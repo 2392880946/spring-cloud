@@ -1,0 +1,28 @@
+
+spring:
+  application:
+    name: springcloud-consumer-zuul
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://abc:abc@localhost:8761/eureka
+
+
+
+zuul:
+  routes:
+    api-a:
+      path: /api-user/**
+      serviceId: springcloud-privoder-user
+    api-b:
+      path: /api-hystrix/**
+      serviceId: springcloud-consumer-hystrix
+
+
+
+
+        
