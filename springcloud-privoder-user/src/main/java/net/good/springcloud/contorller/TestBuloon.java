@@ -10,5 +10,6 @@ public class TestBuloon {
     public static void main() {
         int insertons = 100000000;
         String my = "Git tes";
+        String ni = "ni xie";
     }
 }
