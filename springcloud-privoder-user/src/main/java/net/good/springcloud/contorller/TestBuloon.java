@@ -13,5 +13,6 @@ public class TestBuloon {
         String wo = "wo xie";
         String ni = "ni xie";
         String other = "wo yao GIt ";
+        String tianxia = "";
     }
 }
