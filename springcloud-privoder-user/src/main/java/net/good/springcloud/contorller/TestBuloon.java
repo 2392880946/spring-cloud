@@ -12,5 +12,6 @@ public class TestBuloon {
         String my = "Git tes";
         String wo = "wo xie";
         String ni = "ni xie";
+        String other = "wo yao GIt ";
     }
 }
